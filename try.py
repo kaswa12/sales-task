@@ -1,6 +1,6 @@
 
 
-                import streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -162,3 +162,4 @@ elif page == "🔮 Live Forecasting":
                 <h1 style="color:white; font-size:60px; margin:0;">${prediction:,.2f}</h1>
             </div>
         """, unsafe_allow_html=True)
+
